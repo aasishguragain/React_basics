@@ -8,7 +8,7 @@ const Counter = () => {
   return (
     <div>
       <button onClick={buttonClicked}>Click me</button>
-      Enter your name
+      <p>Enter your name:</p>
       <input type="text" onChange={changeHandler} />
     </div>
   );
